@@ -1,0 +1,18 @@
+{
+  "sites": [
+    {
+      "name": "MyApp",
+      "domain": "localhost",
+      "port": 8083,
+      "document_root": "D:\\Workspace\\Experimen\\PHPForge\\dist\\sites\\trial",
+      "php_version": "8.4.22"
+    },
+    {
+      "name": "trial-3",
+      "domain": "localhost",
+      "port": 8084,
+      "document_root": "D:\\Workspace\\Experimen\\PHPForge\\dist\\sites\\trial3",
+      "php_version": "8.4.22"
+    }
+  ]
+}

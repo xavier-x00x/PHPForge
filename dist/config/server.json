@@ -1,0 +1,6 @@
+{
+  "api_port": 8081,
+  "data_dir": "D:\\Workspace\\Experimen\\PHPForge\\dist",
+  "php_workers": 32,
+  "api_key": "phforge-secret-key"
+}

@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-bg: #151f2c;
+  --color-dark-card: #1d273b;
+  --color-primary: #206bc4;
+  --color-primary-hover: #3b82f6;
+  --color-text-main: #f6f8fb;
+  --color-text-muted: #8c9ba5;
+  --color-border-subtle: #27364d;
+  --color-success: #2fb344;
+  --color-danger: #d63939;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--color-dark-bg);
+  color: var(--color-text-main);
+}
+
+@layer utilities {
+  .card {
+    @apply bg-dark-card border border-border-subtle rounded-lg shadow-sm;
+  }
+}
+
